@@ -20,6 +20,6 @@ All symbols in these libraries are 1000 mil wide.
 
 Following the style of KiCad’s AVR and STM32 libraries, GPIO ports are placed clockwise from the top-right corner of the symbol and pins within each port are ordered top-to-bottom. Unlike in those libraries however, a port near the bottom of the symbol is never split between the left and right for compactness; I prefer that each port remains a whole, even if it means a bit more empty space at the top-left.
 
-Non-GPIO pins are placed at the top-left corner of the symbol, for example `ADC_VREF+`, and `TCAP` in chips with capacitive touch. `ADC_VREF+` is shifted down to avoid 
+Non-GPIO pins are placed at the top-left corner of the symbol, for example `ADC_VREF+`, and `TCAP` in chips with capacitive touch. `ADC_VREF+` is shifted down 100 mil to avoid being too close to `VCC`.
 
 GPIO pins are labelled with port and bit numbers only, except for `RST`, and the UART1 pins for programming and debugging, as they are always important. For all other pins, it would be too much visual noise to include all their alternate functions. The user is expected to either edit the pin names to include alternate functions used, or use net labels to indicate the purpose of pins.
