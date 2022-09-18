@@ -6,7 +6,7 @@ As of September 2022, the [MCU_STC library](https://kicad.github.io/symbols/MCU_
 
 ## Library Organisation
 
-To reduce repetition, These libraries contain only the highest-memory-capacity model in each series. They should be sufficient as chips in each series differ only by memory size and rarely have functional differences.
+To reduce repetition, These libraries contain only the highest-memory-capacity non-IAP model in each series. They should be sufficient as chips in each series differ only by memory size and rarely have functional differences. “IAP” model names are not used because they deviate from the normal naming and can be distracting.
 
 Chips with very low sales or no stock on LCSC have not been included as they are unlikely to be used.
 
