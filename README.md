@@ -10,6 +10,8 @@ To reduce repetition, These libraries contain only the highest-memory-capacity m
 
 Chips with very low sales or no stock on LCSC have not been included as they are unlikely to be used.
 
+Where the same chip has more than one package with the same pinout, LQFP and SOP are included, and DFN/QFN and DIP are omitted. If you wish to use one of the omitted packages, simply edit the Footprint field after placing the symbol.
+
 ## Symbol Design
 
 ![KiCad symbol of STC8H4K64TL-45I-LQFP32](stc8h4k64tl-45x-lqfp32.png)
